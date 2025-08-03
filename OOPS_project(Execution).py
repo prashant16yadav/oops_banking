@@ -1,4 +1,4 @@
-from Bank_accounts import *
+from Bank_accounts(CODE) import *
 
 Sonu = Bank_accounts(1000,"Sonu")
 Monu = Bank_accounts(2000,"Monu")
@@ -34,5 +34,6 @@ Tinku.transfer(2000,Monu)
 Tinku.get_balance()
 
 Tinku.withdraw(5000)
+
 
 Jim.withdraw(300)
